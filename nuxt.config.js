@@ -81,7 +81,9 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {},
+  build: {
+    publicPath: 'https://pardo.github.io/nuxt-store-test/',
+  },
   generate: {
     routes: [
       ...Object.keys(DATA).map((key) => {
