@@ -84,6 +84,9 @@ export default {
   build: {
     publicPath: 'https://pardo.github.io/nuxt-store-test/',
   },
+  router: {
+    base: '/nuxt-store-test/'
+  },
   generate: {
     routes: [
       ...Object.keys(DATA).map((key) => {
